@@ -12,6 +12,6 @@ setup(
     author_email="<mac.brennan.90@gmail.com>",
     description=DESCRIPTION,
     packages=['hello'],
-    package_dir={'': 'src'}
+    package_dir={'': 'src'},
     install_requires=[]
 )
