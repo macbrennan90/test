@@ -13,5 +13,5 @@ setup(
     description=DESCRIPTION,
     packages=['hello'],
     package_dir={'': 'src'}
-    install_requires=[],
+    install_requires=[]
 )
