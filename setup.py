@@ -11,15 +11,7 @@ setup(
     author="Mac Brennan",
     author_email="<mac.brennan.90@gmail.com>",
     description=DESCRIPTION,
-    packages=find_packages(),
+    packages=['hello'],
+    package_dir={'': 'src'}
     install_requires=[],
-    keywords=['python'],
-    classifiers=[
-        "Development Status :: 1 - Planning",
-        "Intended Audience :: Developers",
-        "Programming Language :: Python :: 3",
-        "Operating System :: Unix",
-        "Operating System :: MacOS :: MacOS X",
-        "Operating System :: Microsoft :: Windows",
-    ]
 )
